@@ -1,3 +1,5 @@
+import React from "react";
+import LoginForm from "./components/LoginForm";
 import "./App.css";
 
 function App() {
@@ -10,9 +12,7 @@ function App() {
         </div>
       </section>
       <div class="container is-fullhd">
-        <div class="notification">
-          Edit the <code>./src</code> folder to add components.
-        </div>
+      <LoginForm />
       </div>
     </div>
   );
